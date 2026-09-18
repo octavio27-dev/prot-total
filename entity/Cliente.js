@@ -1,9 +1,10 @@
 class Cliente{
-    constructor(id, nombre, precio, stock){
+    constructor(id, nombre, apellido, documento, edad){
         this.id=id;
         this.nombre=nombre;
-        this.precio=precio;
-        this.stock=stock;
+        this.apellido=apellido;
+        this.documento=documento;
+        this.edad=edad;
     }
 }
 module.exports=Cliente;
